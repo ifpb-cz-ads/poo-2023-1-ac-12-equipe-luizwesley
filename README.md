@@ -9,7 +9,7 @@ Respostas:
 
 3-
 
-        public class Aula1{
+        public class BMAtividade3{
                 public static void main(String[] args){
                     System.out.println ("Terminei a primeira aula com um programa Java!");
                     }
@@ -28,7 +28,7 @@ Respostas:
     
 7-
 
-        PUBLIC CLASS EX6{
+        PUBLIC CLASS BMATIVIDADE6{
             PUBLIC STATIC VOID MAIN (STRING[] ARGS){
                 SYSTEM.OUT.PRINTLN("WESLEY");
                 SYSTEM.OUT.PRINTLN("PALMEIRAS");
@@ -40,12 +40,12 @@ O código acima gera o seguinte erro de compilação:
 
 
         EX6.java:1: error: class, interface, enum, or record expected
-        PUBLIC CLASS EX6{
+        PUBLIC CLASS BMATIVIDADE6{
         ^
-        EX6.java:4: error: class, interface, enum, or record expected
+        BMATIVIDADE6.java:4: error: class, interface, enum, or record expected
                 SYSTEM.OUT.PRINTLN("PALMEIRAS");
                 ^
-        EX6.java:5: error: class, interface, enum, or record expected
+        BMATIVIDADE6.java:5: error: class, interface, enum, or record expected
             }
             ^
         3 errors
