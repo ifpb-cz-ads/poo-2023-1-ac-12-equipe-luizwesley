@@ -22,6 +22,8 @@ Respostas:
     Erro: o método main não foi encontrado na classe Main; defina o método main como:
        public static void main(String[] args)
     ou uma classe de aplicativo JavaFX deve expandir javafx.application.Application
+
+    
 7-
 
         PUBLIC CLASS EX6{
@@ -35,13 +37,22 @@ Respostas:
 O código acima gera o seguinte erro de compilação:
 
 
-EX6.java:1: error: class, interface, enum, or record expected
-PUBLIC CLASS EX6{
-^
-EX6.java:4: error: class, interface, enum, or record expected
-        SYSTEM.OUT.PRINTLN("PALMEIRAS");
+        EX6.java:1: error: class, interface, enum, or record expected
+        PUBLIC CLASS EX6{
         ^
-EX6.java:5: error: class, interface, enum, or record expected
-    }
-    ^
-3 errors
+        EX6.java:4: error: class, interface, enum, or record expected
+                SYSTEM.OUT.PRINTLN("PALMEIRAS");
+                ^
+        EX6.java:5: error: class, interface, enum, or record expected
+            }
+            ^
+        3 errors
+        
+
+8- Acontece o seguinte erro na hora da compilação:
+
+
+Main.java:1: error: class Start is public, should be declared in a file named Start.java
+public class Start{
+       ^
+1 error
